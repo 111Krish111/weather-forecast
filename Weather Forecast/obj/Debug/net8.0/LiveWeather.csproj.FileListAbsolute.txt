@@ -1,0 +1,175 @@
+D:\WISE WORK\LiveWeather\bin\Debug\net8.0\output\web.config
+D:\WISE WORK\LiveWeather\bin\Debug\net8.0\appsettings.Development.json
+D:\WISE WORK\LiveWeather\bin\Debug\net8.0\appsettings.json
+D:\WISE WORK\LiveWeather\bin\Debug\net8.0\output\appsettings.Development.json
+D:\WISE WORK\LiveWeather\bin\Debug\net8.0\output\appsettings.json
+D:\WISE WORK\LiveWeather\bin\Debug\net8.0\output\LiveWeather.json
+D:\WISE WORK\LiveWeather\bin\Debug\net8.0\output\LiveWeather.runtimeconfig.json
+D:\WISE WORK\LiveWeather\bin\Debug\net8.0\LiveWeather.staticwebassets.runtime.json
+D:\WISE WORK\LiveWeather\bin\Debug\net8.0\LiveWeather.exe
+D:\WISE WORK\LiveWeather\bin\Debug\net8.0\LiveWeather.deps.json
+D:\WISE WORK\LiveWeather\bin\Debug\net8.0\LiveWeather.runtimeconfig.json
+D:\WISE WORK\LiveWeather\bin\Debug\net8.0\LiveWeather.dll
+D:\WISE WORK\LiveWeather\bin\Debug\net8.0\LiveWeather.pdb
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\LiveWeather.GeneratedMSBuildEditorConfig.editorconfig
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\LiveWeather.AssemblyInfoInputs.cache
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\LiveWeather.AssemblyInfo.cs
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\LiveWeather.csproj.CoreCompileInputs.cache
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\LiveWeather.MvcApplicationPartsAssemblyInfo.cache
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\LiveWeather.sourcelink.json
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\staticwebassets.build.json
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\staticwebassets.development.json
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\staticwebassets\msbuild.LiveWeather.Microsoft.AspNetCore.StaticWebAssets.props
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\staticwebassets\msbuild.build.LiveWeather.props
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LiveWeather.props
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LiveWeather.props
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\staticwebassets.pack.json
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\scopedcss\bundle\LiveWeather.styles.css
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\scopedcss\projectbundle\LiveWeather.bundle.scp.css
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\LiveWeather.dll
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\refint\LiveWeather.dll
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\LiveWeather.pdb
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\LiveWeather.genruntimeconfig.cache
+D:\WISE WORK\LiveWeather\obj\Debug\net8.0\ref\LiveWeather.dll
+D:\New folder\New folder\LiveWeather\bin\Debug\net8.0\appsettings.Development.json
+D:\New folder\New folder\LiveWeather\bin\Debug\net8.0\appsettings.json
+D:\New folder\New folder\LiveWeather\bin\Debug\net8.0\output\web.config
+D:\New folder\New folder\LiveWeather\bin\Debug\net8.0\output\appsettings.Development.json
+D:\New folder\New folder\LiveWeather\bin\Debug\net8.0\output\appsettings.json
+D:\New folder\New folder\LiveWeather\bin\Debug\net8.0\output\LiveWeather.json
+D:\New folder\New folder\LiveWeather\bin\Debug\net8.0\output\LiveWeather.runtimeconfig.json
+D:\New folder\New folder\LiveWeather\bin\Debug\net8.0\LiveWeather.staticwebassets.runtime.json
+D:\New folder\New folder\LiveWeather\bin\Debug\net8.0\LiveWeather.exe
+D:\New folder\New folder\LiveWeather\bin\Debug\net8.0\LiveWeather.deps.json
+D:\New folder\New folder\LiveWeather\bin\Debug\net8.0\LiveWeather.runtimeconfig.json
+D:\New folder\New folder\LiveWeather\bin\Debug\net8.0\LiveWeather.dll
+D:\New folder\New folder\LiveWeather\bin\Debug\net8.0\LiveWeather.pdb
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\LiveWeather.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\LiveWeather.AssemblyInfoInputs.cache
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\LiveWeather.AssemblyInfo.cs
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\LiveWeather.csproj.CoreCompileInputs.cache
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\LiveWeather.MvcApplicationPartsAssemblyInfo.cache
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\LiveWeather.sourcelink.json
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\staticwebassets.build.json
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\staticwebassets.development.json
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\staticwebassets\msbuild.LiveWeather.Microsoft.AspNetCore.StaticWebAssets.props
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\staticwebassets\msbuild.build.LiveWeather.props
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LiveWeather.props
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LiveWeather.props
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\staticwebassets.pack.json
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\scopedcss\bundle\LiveWeather.styles.css
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\scopedcss\projectbundle\LiveWeather.bundle.scp.css
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\LiveWeather.dll
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\refint\LiveWeather.dll
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\LiveWeather.pdb
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\LiveWeather.genruntimeconfig.cache
+D:\New folder\New folder\LiveWeather\obj\Debug\net8.0\ref\LiveWeather.dll
+D:\Live weather\LiveWeather\bin\Debug\net8.0\output\web.config
+D:\Live weather\LiveWeather\bin\Debug\net8.0\appsettings.Development.json
+D:\Live weather\LiveWeather\bin\Debug\net8.0\appsettings.json
+D:\Live weather\LiveWeather\bin\Debug\net8.0\output\appsettings.Development.json
+D:\Live weather\LiveWeather\bin\Debug\net8.0\output\appsettings.json
+D:\Live weather\LiveWeather\bin\Debug\net8.0\output\LiveWeather.json
+D:\Live weather\LiveWeather\bin\Debug\net8.0\output\LiveWeather.runtimeconfig.json
+D:\Live weather\LiveWeather\bin\Debug\net8.0\LiveWeather.staticwebassets.runtime.json
+D:\Live weather\LiveWeather\bin\Debug\net8.0\LiveWeather.exe
+D:\Live weather\LiveWeather\bin\Debug\net8.0\LiveWeather.deps.json
+D:\Live weather\LiveWeather\bin\Debug\net8.0\LiveWeather.runtimeconfig.json
+D:\Live weather\LiveWeather\bin\Debug\net8.0\LiveWeather.dll
+D:\Live weather\LiveWeather\bin\Debug\net8.0\LiveWeather.pdb
+D:\Live weather\LiveWeather\obj\Debug\net8.0\LiveWeather.GeneratedMSBuildEditorConfig.editorconfig
+D:\Live weather\LiveWeather\obj\Debug\net8.0\LiveWeather.AssemblyInfoInputs.cache
+D:\Live weather\LiveWeather\obj\Debug\net8.0\LiveWeather.AssemblyInfo.cs
+D:\Live weather\LiveWeather\obj\Debug\net8.0\LiveWeather.csproj.CoreCompileInputs.cache
+D:\Live weather\LiveWeather\obj\Debug\net8.0\LiveWeather.MvcApplicationPartsAssemblyInfo.cache
+D:\Live weather\LiveWeather\obj\Debug\net8.0\LiveWeather.sourcelink.json
+D:\Live weather\LiveWeather\obj\Debug\net8.0\staticwebassets.build.json
+D:\Live weather\LiveWeather\obj\Debug\net8.0\staticwebassets.development.json
+D:\Live weather\LiveWeather\obj\Debug\net8.0\staticwebassets\msbuild.LiveWeather.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Live weather\LiveWeather\obj\Debug\net8.0\staticwebassets\msbuild.build.LiveWeather.props
+D:\Live weather\LiveWeather\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LiveWeather.props
+D:\Live weather\LiveWeather\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LiveWeather.props
+D:\Live weather\LiveWeather\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Live weather\LiveWeather\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+D:\Live weather\LiveWeather\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+D:\Live weather\LiveWeather\obj\Debug\net8.0\scopedcss\bundle\LiveWeather.styles.css
+D:\Live weather\LiveWeather\obj\Debug\net8.0\scopedcss\projectbundle\LiveWeather.bundle.scp.css
+D:\Live weather\LiveWeather\obj\Debug\net8.0\LiveWeather.dll
+D:\Live weather\LiveWeather\obj\Debug\net8.0\refint\LiveWeather.dll
+D:\Live weather\LiveWeather\obj\Debug\net8.0\LiveWeather.pdb
+D:\Live weather\LiveWeather\obj\Debug\net8.0\LiveWeather.genruntimeconfig.cache
+D:\Live weather\LiveWeather\obj\Debug\net8.0\ref\LiveWeather.dll
+C:\Users\krish\source\repos\LiveWeather\bin\Debug\net8.0\output\web.config
+C:\Users\krish\source\repos\LiveWeather\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\krish\source\repos\LiveWeather\bin\Debug\net8.0\appsettings.json
+C:\Users\krish\source\repos\LiveWeather\bin\Debug\net8.0\output\appsettings.Development.json
+C:\Users\krish\source\repos\LiveWeather\bin\Debug\net8.0\output\appsettings.json
+C:\Users\krish\source\repos\LiveWeather\bin\Debug\net8.0\output\LiveWeather.json
+C:\Users\krish\source\repos\LiveWeather\bin\Debug\net8.0\output\LiveWeather.runtimeconfig.json
+C:\Users\krish\source\repos\LiveWeather\bin\Debug\net8.0\LiveWeather.staticwebassets.runtime.json
+C:\Users\krish\source\repos\LiveWeather\bin\Debug\net8.0\LiveWeather.exe
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\LiveWeather.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\LiveWeather.AssemblyInfoInputs.cache
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\LiveWeather.AssemblyInfo.cs
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\LiveWeather.csproj.CoreCompileInputs.cache
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\LiveWeather.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\LiveWeather.sourcelink.json
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\staticwebassets\msbuild.LiveWeather.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\staticwebassets\msbuild.build.LiveWeather.props
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LiveWeather.props
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LiveWeather.props
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\scopedcss\bundle\LiveWeather.styles.css
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\scopedcss\projectbundle\LiveWeather.bundle.scp.css
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\LiveWeather.dll
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\refint\LiveWeather.dll
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\LiveWeather.pdb
+C:\Users\krish\source\repos\LiveWeather\bin\Debug\net8.0\LiveWeather.deps.json
+C:\Users\krish\source\repos\LiveWeather\bin\Debug\net8.0\LiveWeather.runtimeconfig.json
+C:\Users\krish\source\repos\LiveWeather\bin\Debug\net8.0\LiveWeather.dll
+C:\Users\krish\source\repos\LiveWeather\bin\Debug\net8.0\LiveWeather.pdb
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\LiveWeather.genruntimeconfig.cache
+C:\Users\krish\source\repos\LiveWeather\obj\Debug\net8.0\ref\LiveWeather.dll
+C:\Users\krish\source\repos\Weather Forecast\bin\Debug\net8.0\output\web.config
+C:\Users\krish\source\repos\Weather Forecast\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\krish\source\repos\Weather Forecast\bin\Debug\net8.0\appsettings.json
+C:\Users\krish\source\repos\Weather Forecast\bin\Debug\net8.0\output\appsettings.Development.json
+C:\Users\krish\source\repos\Weather Forecast\bin\Debug\net8.0\output\appsettings.json
+C:\Users\krish\source\repos\Weather Forecast\bin\Debug\net8.0\output\LiveWeather.json
+C:\Users\krish\source\repos\Weather Forecast\bin\Debug\net8.0\output\LiveWeather.runtimeconfig.json
+C:\Users\krish\source\repos\Weather Forecast\bin\Debug\net8.0\LiveWeather.staticwebassets.runtime.json
+C:\Users\krish\source\repos\Weather Forecast\bin\Debug\net8.0\LiveWeather.exe
+C:\Users\krish\source\repos\Weather Forecast\bin\Debug\net8.0\LiveWeather.deps.json
+C:\Users\krish\source\repos\Weather Forecast\bin\Debug\net8.0\LiveWeather.runtimeconfig.json
+C:\Users\krish\source\repos\Weather Forecast\bin\Debug\net8.0\LiveWeather.dll
+C:\Users\krish\source\repos\Weather Forecast\bin\Debug\net8.0\LiveWeather.pdb
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\LiveWeather.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\LiveWeather.AssemblyInfoInputs.cache
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\LiveWeather.AssemblyInfo.cs
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\LiveWeather.csproj.CoreCompileInputs.cache
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\LiveWeather.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\LiveWeather.sourcelink.json
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\staticwebassets\msbuild.LiveWeather.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\staticwebassets\msbuild.build.LiveWeather.props
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LiveWeather.props
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LiveWeather.props
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\scopedcss\bundle\LiveWeather.styles.css
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\scopedcss\projectbundle\LiveWeather.bundle.scp.css
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\LiveWeather.dll
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\refint\LiveWeather.dll
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\LiveWeather.pdb
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\LiveWeather.genruntimeconfig.cache
+C:\Users\krish\source\repos\Weather Forecast\obj\Debug\net8.0\ref\LiveWeather.dll
