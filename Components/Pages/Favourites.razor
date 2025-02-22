@@ -1,0 +1,171 @@
+﻿@page "/favourites"
+@rendermode InteractiveServer
+@inject DatabaseController databaseController
+@using BlazorApp.Singletons
+@inject UserStateManager userState
+@using MongoDB.Bson
+@inject IDialogService DialogService
+@using BlazorApp.Models
+@using BlazorApp.Controllers
+@inject NavigationManager NavigationManager
+@inject ISnackbar snackbar
+@inject ILogger<Favourites> logger
+@inject WeatherAPIService WeatherService
+
+<PageTitle>Favorite Cities</PageTitle>
+<MudText Typo="Typo.h4" Align="Align.Center">Favorite Cities</MudText>
+
+ 
+@if (isLoading)
+{
+
+    <div class="d-flex flex-column align-items-center my-4">
+        <MudProgressCircular Size="Size.Large" Color="Color.Primary" Indeterminate="true" />
+        <MudText Typo="Typo.h6" Color="Color.Primary" Align="Align.Center" Class="mt-3">
+            Fetching location...
+        </MudText>
+    </div>
+
+}
+
+else if (favouriteCities != null && favouriteCities.Count > 0) //
+{
+    <MudPaper Elevation="3" Class="p-4">
+        <MudTable Items="@favouriteCities" Hover="true" Striped="false" Dense="false">
+            <HeaderContent>
+                <MudTh Class="text-lg font-bold">City Name</MudTh>
+                <MudTh Class="text-lg font-bold">Date Added</MudTh>
+                <MudTh Class="text-lg font-bold"></MudTh>
+            </HeaderContent>
+
+            <RowTemplate Context="city">
+                <MudTd Class="text-md font-semibold text-start">@city.CityName</MudTd>
+                <MudTd Class="text-md text-start">@city.DateAdded.ToLocalTime().ToString("yyyy-MM-dd ")</MudTd>
+                <MudTd Class="text-end d-flex justify-content-end gap-4">
+                    <MudTooltip Text="Search Weather forecast">
+                        <MudButton Color="Color.Primary" Variant="Variant.Outlined" OnClick="@(() => SearchWeather(city.CityName))">
+                            <MudIcon Icon="@Icons.Material.Outlined.Search" Class="" />
+                            Weather
+                        </MudButton>
+                    </MudTooltip>
+                    <MudTooltip Text="Delete Fav City">
+                        <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Error" OnClick="@(() => OpenDeleteDialog(city.CityName))"></MudIconButton>
+                    </MudTooltip>
+                </MudTd>
+            </RowTemplate>
+        </MudTable>
+    </MudPaper>
+
+}
+else
+{
+    <MudAlert Severity="Severity.Info">No favorite cities added yet.</MudAlert>
+}
+
+
+
+<style>
+    .no-border {
+        border: none !important;
+    }
+
+    .no-shadow {
+        box-shadow: none !important;
+    }
+</style>
+
+
+@code {
+    private List<Favourite> favouriteCities = new(); //favouriteCities
+    private string userEmail = "";
+    private bool isLoading = true;
+
+    private bool _isDialogOpen = false;
+    private string selectedCity = "";
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        isLoading = true;
+        userEmail = userState.UserEmail; // Retrieve logged-in user's email
+
+        if (!string.IsNullOrEmpty(userEmail))
+        {
+            var allCities = await databaseController.GetFavoriteCitiesByUser(userEmail);
+
+            favouriteCities = await databaseController.GetFavoriteCitiesByUser(userEmail);
+            favouriteCities = favouriteCities
+           .GroupBy(c => c.CityName)
+           .Select(g => g.First())  // Take only the first occurrence
+           .ToList();
+
+
+            // Check weather alerts for each favorite city
+            // Get user alert preferences
+            var userPreferences = await databaseController.GetUserAlertPreferences(userEmail);
+
+            if (userPreferences != null)
+            {
+                foreach (var city in favouriteCities)
+                {
+                    var alerts = await WeatherService.CheckWeatherAlertsAsync(city.CityName);
+                    var filteredAlerts = alerts.Where(a =>
+                        (userPreferences.TemperatureAlert && a.Type == "Temperature") ||
+                        (userPreferences.WindAlert && a.Type == "Wind") ||
+                        (userPreferences.RainAlert && a.Type == "Rain") ||
+                        (userPreferences.AirQualityAlert && a.Type == "AirQuality")
+                    ).ToList();
+
+                    if (filteredAlerts.Any())
+                    {
+                        string alertSummary = string.Join("\n\n", filteredAlerts.Select(a => $"*Alert:* {a.Headline}\n*Details:* {a.Desc}"));
+                        snackbar.Add($"Weather Alert for {city.CityName}: {alertSummary}", Severity.Warning);
+                    }
+                }
+            }
+
+        }
+        else
+        {
+            favouriteCities = new List<Favourite>(); // Clear data if no user is logged in
+        }
+
+        isLoading = false;
+        StateHasChanged();
+    }
+
+
+
+
+    private async Task OpenDeleteDialog(string cityName)
+    {
+        var parameters = new DialogParameters { ["CityName"] = cityName };
+        var options = new DialogOptions { CloseOnEscapeKey = true, MaxWidth = MaxWidth.Small, FullWidth = true };
+
+        var dialog = await DialogService.ShowAsync<DeleteConfirmationDialog>("Delete Confirmation", parameters, options);
+        var result = await dialog.Result;
+
+        if (!result.Canceled)
+        {
+            await RemoveCity(cityName);
+        }
+    }
+
+    private async Task RemoveCity(string cityName)
+    {
+        await databaseController.RemoveFavoriteCity(cityName, userState.UserEmail);
+        favouriteCities = favouriteCities.Where(c => c.CityName != cityName).ToList();
+        StateHasChanged();
+    }
+
+    private void SearchWeather(string cityName)
+    {
+        NavigationManager.NavigateTo($"/weather?city={cityName}");
+    }
+
+    private void NavigateToAlertPreferences()
+    {
+        NavigationManager.NavigateTo("/alert-preferences");
+    }
+}
