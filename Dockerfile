@@ -11,13 +11,15 @@ WORKDIR /src
 COPY ["BlazorApp.csproj", "./"]
 RUN dotnet restore "BlazorApp.csproj"
 
-# Copy the entire project and build it
+# Copy the entire project
 COPY . .
-RUN dotnet build "BlazorApp.csproj" -c Release --no-restore -o /app/build
+
+# Build the project
+RUN dotnet build "BlazorApp.csproj" -c Release -o /app/build
 
 # Publish the app
 FROM build AS publish
-RUN dotnet publish "BlazorApp.csproj" -c Release --no-build -o /app/publish
+RUN dotnet publish "BlazorApp.csproj" -c Release -o /app/publish
 
 # Final runtime image
 FROM base AS final
