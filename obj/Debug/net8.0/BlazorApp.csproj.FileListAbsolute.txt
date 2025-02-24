@@ -217,6 +217,13 @@ E:\BlazorApp\obj\Debug\net8.0\refint\BlazorApp.dll
 E:\BlazorApp\obj\Debug\net8.0\BlazorApp.pdb
 E:\BlazorApp\obj\Debug\net8.0\BlazorApp.genruntimeconfig.cache
 E:\BlazorApp\obj\Debug\net8.0\ref\BlazorApp.dll
+C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\obj\Debug\net8.0\BlazorApp.csproj.AssemblyReference.cache
+C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\obj\Debug\net8.0\BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\obj\Debug\net8.0\BlazorApp.AssemblyInfoInputs.cache
+C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\obj\Debug\net8.0\BlazorApp.AssemblyInfo.cs
+C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\obj\Debug\net8.0\BlazorApp.csproj.CoreCompileInputs.cache
+C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\obj\Debug\net8.0\BlazorApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\obj\Debug\net8.0\BlazorApp.sourcelink.json
 C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\bin\Debug\net8.0\appsettings.json
 C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\bin\Debug\net8.0\BlazorApp.staticwebassets.runtime.json
@@ -268,12 +275,6 @@ C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\bin\Debu
 C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
-C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\obj\Debug\net8.0\BlazorApp.csproj.AssemblyReference.cache
-C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\obj\Debug\net8.0\BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\obj\Debug\net8.0\BlazorApp.AssemblyInfoInputs.cache
-C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\obj\Debug\net8.0\BlazorApp.AssemblyInfo.cs
-C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\obj\Debug\net8.0\BlazorApp.csproj.CoreCompileInputs.cache
-C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\obj\Debug\net8.0\BlazorApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 C:\Users\krish\source\repos\weather forecast\Weather forecast\BlazorApp\obj\Debug\net8.0\scopedcss\bundle\BlazorApp.styles.css

@@ -8,8 +8,8 @@ using Supabase;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var supabaseUrl = "https://swgemivmgvibghrnarov.supabase.co";
-var supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN3Z2VtaXZtZ3ZpYmdocm5hcm92Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzk4NzU0NjksImV4cCI6MjA1NTQ1MTQ2OX0.UKecbhqzrUqaZ8f_-PC_HD75-5WGLpuGVMzmv4gdnxc";
+var supabaseUrl = "https://nxkuxdowqjedwznnymkv.supabase.co";
+var supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im54a3V4ZG93cWplZHd6bm55bWt2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzQ5MjM2NjgsImV4cCI6MjA1MDQ5OTY2OH0.DqDceQsmgNxZpS33G2oD6sebgRowSGdP-tqXKu2COmM";
 
 var options = new SupabaseOptions { AutoConnectRealtime = true };
 var supabaseClient = new Supabase.Client(supabaseUrl, supabaseKey, options);
@@ -32,6 +32,7 @@ builder.Services.AddMudBlazorSnackbar();
 builder.Services.AddSingleton<PersonalInfoService>();
 builder.Services.AddSingleton<FavoriteCityService>();
 builder.Services.AddScoped<WeatherAPIService>(); // ? Correct
+builder.Services.AddMudServices();
 
 
 

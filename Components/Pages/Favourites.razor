@@ -49,8 +49,9 @@ else if (favouriteCities != null && favouriteCities.Count > 0) //
                         </MudButton>
                     </MudTooltip>
                     <MudTooltip Text="Delete Fav City">
-                        <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Error" OnClick="@(() => OpenDeleteDialog(city.CityName))"></MudIconButton>
+                        <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Error" OnClick="@(() => RemoveCity(city.CityName))"></MudIconButton>
                     </MudTooltip>
+
                 </MudTd>
             </RowTemplate>
         </MudTable>
@@ -138,19 +139,7 @@ else
 
 
 
-    private async Task OpenDeleteDialog(string cityName)
-    {
-        var parameters = new DialogParameters { ["CityName"] = cityName };
-        var options = new DialogOptions { CloseOnEscapeKey = true, MaxWidth = MaxWidth.Small, FullWidth = true };
-
-        var dialog = await DialogService.ShowAsync<DeleteConfirmationDialog>("Delete Confirmation", parameters, options);
-        var result = await dialog.Result;
-
-        if (!result.Canceled)
-        {
-            await RemoveCity(cityName);
-        }
-    }
+    
 
     private async Task RemoveCity(string cityName)
     {

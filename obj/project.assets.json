@@ -499,7 +499,7 @@
           }
         }
       },
-      "MudBlazor/7.15.0": {
+      "MudBlazor/7.16.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "8.0.8",
@@ -1658,10 +1658,10 @@
         "runtimes/win/native/mongocrypt.dll"
       ]
     },
-    "MudBlazor/7.15.0": {
-      "sha512": "b2+hO7ZTGwsGhu9SoowuNe2ETeF1GzExpg/hIYR++rSh+vy4v/QD0iOsrATWv3LdFJXSgk3d1+XIr5srW3jBiA==",
+    "MudBlazor/7.16.0": {
+      "sha512": "68bEFn7MLCyOB4yYxtvZG+AA+bZbxBDcIOhnSVFrHrAg8LLXVw1LxHCp9EyRktlREpnoAO1JxINp+5WeHc9Z4w==",
       "type": "package",
-      "path": "mudblazor/7.15.0",
+      "path": "mudblazor/7.16.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1678,7 +1678,7 @@
         "lib/net7.0/MudBlazor.xml",
         "lib/net8.0/MudBlazor.dll",
         "lib/net8.0/MudBlazor.xml",
-        "mudblazor.7.15.0.nupkg.sha512",
+        "mudblazor.7.16.0.nupkg.sha512",
         "mudblazor.nuspec",
         "staticwebassets/MudBlazor.min.css",
         "staticwebassets/MudBlazor.min.js"
@@ -2204,7 +2204,7 @@
       "MongoDB.Bson >= 3.1.0",
       "MongoDB.Driver >= 3.1.0",
       "MongoDB.Driver.Core >= 2.30.0",
-      "MudBlazor >= 7.15.0",
+      "mudblazor >= 7.16.0",
       "supabase >= 1.1.1"
     ]
   },
@@ -2274,9 +2274,9 @@
             "target": "Package",
             "version": "[2.30.0, )"
           },
-          "MudBlazor": {
+          "mudblazor": {
             "target": "Package",
-            "version": "[7.15.0, )"
+            "version": "[7.16.0, )"
           },
           "supabase": {
             "target": "Package",

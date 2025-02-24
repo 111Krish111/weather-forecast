@@ -66,9 +66,9 @@
               "target": "Package",
               "version": "[2.30.0, )"
             },
-            "MudBlazor": {
+            "mudblazor": {
               "target": "Package",
-              "version": "[7.15.0, )"
+              "version": "[7.16.0, )"
             },
             "supabase": {
               "target": "Package",

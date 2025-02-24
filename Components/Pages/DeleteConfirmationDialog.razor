@@ -1,5 +1,6 @@
-﻿@inject IDialogService DialogService
+﻿@* @inject IDialogService DialogService
 @using MudBlazor
+@using MudBlazor.Dialog
 
 <MudPaper Class="dialog-container">
     <MudDialogTitle Class="d-flex align-items-center">
@@ -9,7 +10,6 @@
 
     <MudDialogContent>
         <MudText Typo="Typo.h6" Class="mb-2">Are you sure you want to remove <strong>@CityName</strong> from favorites?</MudText>
-        
     </MudDialogContent>
 
     <MudDialogActions Class="d-flex justify-content-center">
@@ -18,17 +18,21 @@
             Delete
         </MudButton>
 
-        <MudButton Color="Color.Default" Variant="Variant.Outlined" StartIcon="@Icons.Material.Filled.Cancel" Style="@($"color:{Colors.Purple.Lighten5};")" OnClick="Cancel" Class="button-spacing">Cancel</MudButton>
-        </MudDialogActions>
+        <MudButton Color="Color.Default" Variant="Variant.Outlined" StartIcon="@Icons.Material.Filled.Cancel" 
+                   Style="@($"color:{Colors.Purple.Lighten5};")" OnClick="Cancel" Class="button-spacing">
+            Cancel
+        </MudButton>
+    </MudDialogActions>
 </MudPaper>
+
 <style>
     .dialog-container {
         padding: 20px;
         border-radius: 10px;
-        border: 2px solid #ddd; /* Thicker full border */
+        border: 2px solid #ddd;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-        background-color: #2d2d2d; /* Dark theme */
-        color: white; /* Light text for better readability */
+        background-color: #2d2d2d;
+        color: white;
     }
 
     .button-spacing {
@@ -45,3 +49,4 @@
     private void ConfirmDelete() => MudDialog.Close(DialogResult.Ok(true));
     private void Cancel() => MudDialog.Cancel();
 }
+ *@

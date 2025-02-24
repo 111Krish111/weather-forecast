@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QCjhe282oal+rqQ4YmVWo1IJj1Mi/MQOdK0v2oYGXpU=",
+  "Hash": "W8pgs3avFF5GamrszunQWE3Mp1UBmqVqv99YxCl0bIU=",
   "Source": "BlazorApp",
   "BasePath": "_content/BlazorApp",
   "Mode": "Default",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\krish\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
+      "Identity": "C:\\Users\\krish\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.css",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\krish\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\krish\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\krish\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css"
+      "OriginalItemSpec": "C:\\Users\\krish\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.css"
     },
     {
-      "Identity": "C:\\Users\\krish\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
+      "Identity": "C:\\Users\\krish\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.js",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\krish\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\krish\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.js",
       "AssetKind": "All",
@@ -52,11 +52,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rnojub5shy",
-      "Integrity": "lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=",
+      "Fingerprint": "lzoc4abpk8",
+      "Integrity": "geXX14pnDwFT+yUxYoAOx7xU4GLnDCWwzb6rVTWgXKo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\krish\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js"
+      "OriginalItemSpec": "C:\\Users\\krish\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.js"
     },
     {
       "Identity": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorApp.styles.css",
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bpk8xqwxhs",
-      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
@@ -209,7 +209,7 @@
   "Endpoints": [
     {
       "Route": "_content/MudBlazor/MudBlazor.min.css",
-      "AssetFile": "C:\\Users\\krish\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
+      "AssetFile": "C:\\Users\\krish\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -230,7 +230,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
+          "Value": "Fri, 17 Jan 2025 17:00:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -246,7 +246,7 @@
     },
     {
       "Route": "_content/MudBlazor/MudBlazor.min.js",
-      "AssetFile": "C:\\Users\\krish\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\krish\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -255,7 +255,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "49823"
+          "Value": "49824"
         },
         {
           "Name": "Content-Type",
@@ -263,11 +263,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=\""
+          "Value": "\"geXX14pnDwFT+yUxYoAOx7xU4GLnDCWwzb6rVTWgXKo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
+          "Value": "Fri, 17 Jan 2025 17:00:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -277,7 +277,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU="
+          "Value": "sha256-geXX14pnDwFT+yUxYoAOx7xU4GLnDCWwzb6rVTWgXKo="
         }
       ]
     },
@@ -304,7 +304,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 05:22:54 GMT"
+          "Value": "Sat, 22 Feb 2025 05:31:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -341,7 +341,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 05:22:54 GMT"
+          "Value": "Sat, 22 Feb 2025 05:31:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -386,7 +386,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 05:22:53 GMT"
+          "Value": "Mon, 24 Feb 2025 11:05:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -423,7 +423,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 05:22:53 GMT"
+          "Value": "Mon, 24 Feb 2025 11:05:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -460,7 +460,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 05:22:53 GMT"
+          "Value": "Mon, 24 Feb 2025 11:05:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -505,7 +505,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 05:22:53 GMT"
+          "Value": "Mon, 24 Feb 2025 11:05:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -528,7 +528,7 @@
       ]
     },
     {
-      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
       "AssetFile": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -538,7 +538,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162720"
+          "Value": "162726"
         },
         {
           "Name": "Content-Type",
@@ -546,11 +546,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 05:22:54 GMT"
+          "Value": "Sat, 22 Feb 2025 05:31:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -560,7 +560,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bpk8xqwxhs"
+          "Value": "6gzpyzhau4"
         },
         {
           "Name": "label",
@@ -568,7 +568,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
         }
       ]
     },
@@ -583,7 +583,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162720"
+          "Value": "162726"
         },
         {
           "Name": "Content-Type",
@@ -591,11 +591,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 05:22:54 GMT"
+          "Value": "Sat, 22 Feb 2025 05:31:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -605,7 +605,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
         }
       ]
     },
@@ -632,7 +632,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 05:22:54 GMT"
+          "Value": "Sat, 22 Feb 2025 05:31:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -677,7 +677,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 05:22:54 GMT"
+          "Value": "Sat, 22 Feb 2025 05:31:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -714,7 +714,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 05:22:54 GMT"
+          "Value": "Sat, 22 Feb 2025 05:31:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -759,7 +759,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 05:22:54 GMT"
+          "Value": "Sat, 22 Feb 2025 05:31:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -796,7 +796,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 05:22:54 GMT"
+          "Value": "Sat, 22 Feb 2025 05:31:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -841,7 +841,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 05:22:54 GMT"
+          "Value": "Sat, 22 Feb 2025 05:31:04 GMT"
         },
         {
           "Name": "Cache-Control",
