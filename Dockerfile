@@ -1,31 +1,29 @@
-# Use official .NET SDK to build the application
+# Step 1: Build the Blazor WebAssembly project
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /src
 
-# Copy the solution file (Ensure it exists!)
-COPY BlazorApp.sln .  
-
-# Copy project files
-COPY BlazorApp.Shared/ BlazorApp.Shared/
-COPY BlazorApp.Client/ BlazorApp.Client/
-COPY BlazorApp.Server/ BlazorApp.Server/
-
-# Restore dependencies
-RUN dotnet restore BlazorApp.Server/BlazorApp.Server.csproj
-
-# Copy the entire source code
-COPY . .
-
-# Build the application
-RUN dotnet build BlazorApp.Server/BlazorApp.Server.csproj -c Release -o /app/build
-
-# Publish the application
-RUN dotnet publish BlazorApp.Server/BlazorApp.Server.csproj -c Release -o /app/publish
-
-# Use a lightweight runtime image for deployment
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+# Set the working directory in the container
 WORKDIR /app
-COPY --from=build /app/publish .
 
-# Set the entry point
-ENTRYPOINT ["dotnet", "BlazorApp.Server.dll"]
+# Copy the solution and project files
+COPY BlazorApp.sln ./
+COPY BlazorApp.Client/BlazorApp.Client.csproj BlazorApp.Client/
+COPY BlazorApp.Server/BlazorApp.Server.csproj BlazorApp.Server/
+
+# Restore the dependencies
+RUN dotnet restore
+
+# Copy the rest of the code and publish the Blazor WebAssembly app
+COPY . ./
+RUN dotnet publish BlazorApp.Client/BlazorApp.Client.csproj -c Release -o /app/publish
+
+# Step 2: Serve the Blazor WebAssembly app using Nginx
+FROM nginx:alpine AS final
+
+# Copy the published files from the build container to the Nginx container
+COPY --from=build /app/publish/wwwroot /usr/share/nginx/html
+
+# Expose port 80 for HTTP traffic
+EXPOSE 80
+
+# Start the Nginx server
+CMD ["nginx", "-g", "daemon off;"]
