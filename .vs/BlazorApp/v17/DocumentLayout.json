@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -142,24 +142,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-02-25T04:43:00.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BlazorApp.csproj",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\BlazorApp.csproj",
               "RelativeDocumentMoniker": "BlazorApp.csproj",
@@ -167,8 +167,7 @@
               "RelativeToolTip": "BlazorApp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-22T04:45:35.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-22T04:45:35.685Z"
             },
             {
               "$type": "Document",
@@ -184,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -192,8 +191,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-21T10:42:26.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T10:42:26.191Z"
             },
             {
               "$type": "Document",
@@ -221,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Favourites.razor",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Components\\Pages\\Favourites.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Favourites.razor",
@@ -229,20 +227,20 @@
               "RelativeToolTip": "Components\\Pages\\Favourites.razor",
               "ViewState": "AgIAAHUAAAAAAAAAAAAIwJYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-21T05:29:37.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-21T05:29:37.738Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAawDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T07:41:56.771Z"
+              "WhenOpened": "2024-10-16T07:41:56.771Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

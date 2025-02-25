@@ -1,30 +1,31 @@
-# Use the official .NET SDK to build the application
+# Use official .NET SDK to build the application
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /app
+WORKDIR /src
 
-# Copy solution and project files
-COPY *.sln ./
-COPY BlazorApp.Server/BlazorApp.Server.csproj BlazorApp.Server/
-COPY BlazorApp.Client/BlazorApp.Client.csproj BlazorApp.Client/
-COPY BlazorApp.Shared/BlazorApp.Shared.csproj BlazorApp.Shared/
+# Copy the solution file (Ensure it exists!)
+COPY BlazorApp.sln .  
+
+# Copy project files
+COPY BlazorApp.Shared/ BlazorApp.Shared/
+COPY BlazorApp.Client/ BlazorApp.Client/
+COPY BlazorApp.Server/ BlazorApp.Server/
 
 # Restore dependencies
 RUN dotnet restore BlazorApp.Server/BlazorApp.Server.csproj
 
-# Copy all source code and build
-COPY . ./
-RUN dotnet publish BlazorApp.Server/BlazorApp.Server.csproj -c Release -o /publish
+# Copy the entire source code
+COPY . .
 
-# Use the official .NET runtime to run the application
+# Build the application
+RUN dotnet build BlazorApp.Server/BlazorApp.Server.csproj -c Release -o /app/build
+
+# Publish the application
+RUN dotnet publish BlazorApp.Server/BlazorApp.Server.csproj -c Release -o /app/publish
+
+# Use a lightweight runtime image for deployment
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
+COPY --from=build /app/publish .
 
-# Copy the built application from the build stage
-COPY --from=build /publish .
-
-# Expose ports
-EXPOSE 80
-EXPOSE 443
-
-# Start the server
+# Set the entry point
 ENTRYPOINT ["dotnet", "BlazorApp.Server.dll"]
