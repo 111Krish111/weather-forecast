@@ -6,8 +6,7 @@ WORKDIR /app
 
 # Copy the solution and project files
 COPY BlazorApp.sln ./
-COPY BlazorApp.Client/BlazorApp.Client.csproj BlazorApp.Client/
-COPY BlazorApp.Server/BlazorApp.Server.csproj BlazorApp.Server/
+COPY BlazorApp.csproj ./
 
 # Restore the dependencies
 RUN dotnet restore
