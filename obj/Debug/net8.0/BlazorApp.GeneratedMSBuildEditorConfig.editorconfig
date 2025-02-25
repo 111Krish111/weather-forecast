@@ -35,10 +35,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/krish/source/repos/weather forecast/Weather forecast/BlazorApp/Components/Pages/DeleteConfirmationDialog.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZWxldGVDb25maXJtYXRpb25EaWFsb2cucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/krish/source/repos/weather forecast/Weather forecast/BlazorApp/Components/Pages/EditProfile.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFZGl0UHJvZmlsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
