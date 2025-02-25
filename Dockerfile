@@ -9,11 +9,13 @@ COPY BlazorApp.sln ./
 COPY BlazorApp.csproj ./
 
 # Restore the dependencies
-RUN dotnet restore
+RUN dotnet restore BlazorApp.csproj
 
-# Copy the rest of the code and publish the Blazor WebAssembly app
+# Copy the entire project directory
 COPY . ./
-RUN dotnet publish BlazorApp.Client/BlazorApp.Client.csproj -c Release -o /app/publish
+
+# Publish the Blazor WebAssembly app
+RUN dotnet publish BlazorApp.csproj -c Release -o /app/publish
 
 # Step 2: Serve the Blazor WebAssembly app using Nginx
 FROM nginx:alpine AS final
