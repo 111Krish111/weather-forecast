@@ -1,10 +1,37 @@
-FROM nginx:alpine
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 
-# Copy the published files to the Nginx directory
-COPY ./wwwroot /usr/share/nginx/html
+WORKDIR /app
 
-# Expose port 80 to access the application
 EXPOSE 80
 
-# Use Nginx to serve the Blazor WebAssembly app
-CMD ["nginx", "-g", "daemon off;"]
+
+
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+
+WORKDIR /src
+
+COPY ["BlazorApp/BlazorApp.csproj", "BlazorApp/"]
+
+RUN dotnet restore "BlazorApp/BlazorApp.csproj"
+
+COPY . .
+
+WORKDIR "/src/BlazorApp"
+
+RUN dotnet build "BlazorApp.csproj" -c Release -o /app/build
+
+
+
+FROM build AS publish
+
+RUN dotnet publish "BlazorApp.csproj" -c Release -o /app/publish
+
+
+
+FROM base AS final
+
+WORKDIR /app
+
+COPY --from=publish /app/publish .
+
+ENTRYPOINT ["dotnet", "BlazorApp.dll"]
