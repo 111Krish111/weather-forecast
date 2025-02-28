@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\services\\personalinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|solutionrelative:services\\personalinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|solutionrelative:models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\blazorapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -47,16 +59,8 @@
       "RelativeMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|solutionrelative:services\\weatherapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\services\\personalinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|solutionrelative:services\\personalinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\services\\favoritecityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|solutionrelative:services\\favoritecityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\controllers\\supabasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|solutionrelative:models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA45F84E-3E8B-46E6-8FC4-8FB406EAABEE}|BlazorApp.csproj|c:\\users\\krish\\source\\repos\\weather forecast\\weather forecast\\blazorapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -142,36 +142,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-02-25T04:43:00.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BlazorApp.csproj",
-              "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\BlazorApp.csproj",
-              "RelativeDocumentMoniker": "BlazorApp.csproj",
-              "ToolTip": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\BlazorApp.csproj",
-              "RelativeToolTip": "BlazorApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-22T04:45:35.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "Components\\_Imports.razor",
@@ -183,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -195,31 +183,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Services\\AuthService.cs",
               "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAwwIcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T06:34:04.796Z"
+              "WhenOpened": "2024-10-18T06:34:04.796Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "PersonalInfoService.cs",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Services\\PersonalInfoService.cs",
               "RelativeDocumentMoniker": "Services\\PersonalInfoService.cs",
               "ToolTip": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Services\\PersonalInfoService.cs",
               "RelativeToolTip": "Services\\PersonalInfoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAABwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T11:14:58.281Z"
+              "WhenOpened": "2025-02-21T11:14:58.281Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Favourites.razor",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Components\\Pages\\Favourites.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Favourites.razor",
@@ -231,20 +221,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAawDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAawCsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T07:41:56.771Z",
+              "WhenOpened": "2024-10-16T07:41:56.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Favorite.cs",
+              "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Models\\Favorite.cs",
+              "RelativeDocumentMoniker": "Models\\Favorite.cs",
+              "ToolTip": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Models\\Favorite.cs",
+              "RelativeToolTip": "Models\\Favorite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T05:26:56.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
+              "Title": "BlazorApp.csproj",
+              "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\BlazorApp.csproj",
+              "RelativeDocumentMoniker": "BlazorApp.csproj",
+              "ToolTip": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\BlazorApp.csproj",
+              "RelativeToolTip": "BlazorApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-22T04:45:35.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "BlazorApp.AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\obj\\Debug\\net8.0\\BlazorApp.AssemblyInfo.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\BlazorApp.AssemblyInfo.cs",
@@ -256,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "FavoriteCityService.cs",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Services\\FavoriteCityService.cs",
               "RelativeDocumentMoniker": "Services\\FavoriteCityService.cs",
@@ -268,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "UserStateManager.cs",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Singletons\\UserStateManager.cs",
               "RelativeDocumentMoniker": "Singletons\\UserStateManager.cs",
@@ -280,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Weatherdataservies.cs",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Singletons\\Weatherdataservies.cs",
               "RelativeDocumentMoniker": "Singletons\\Weatherdataservies.cs",
@@ -292,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
@@ -304,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "WeatherAPIService.cs",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Services\\WeatherAPIService.cs",
               "RelativeDocumentMoniker": "Services\\WeatherAPIService.cs",
@@ -316,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "SupabaseController.cs",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Controllers\\SupabaseController.cs",
               "RelativeDocumentMoniker": "Controllers\\SupabaseController.cs",
@@ -328,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "DatabaseController.cs",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Controllers\\DatabaseController.cs",
               "RelativeDocumentMoniker": "Controllers\\DatabaseController.cs",
@@ -340,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
@@ -352,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "PersonalInfo.cs",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Models\\PersonalInfo.cs",
               "RelativeDocumentMoniker": "Models\\PersonalInfo.cs",
@@ -364,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "PersonalInfopage.razor",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Components\\Pages\\PersonalInfopage.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\PersonalInfopage.razor",
@@ -376,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AlertPreference.cs",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Models\\AlertPreference.cs",
               "RelativeDocumentMoniker": "Models\\AlertPreference.cs",
@@ -388,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -400,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Models\\Role.cs",
               "RelativeDocumentMoniker": "Models\\Role.cs",
@@ -469,18 +483,6 @@
               "ViewState": "AgIAADABAAAAAAAAAAAiwFYBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-26T12:21:46.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Favorite.cs",
-              "DocumentMoniker": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Models\\Favorite.cs",
-              "RelativeDocumentMoniker": "Models\\Favorite.cs",
-              "ToolTip": "C:\\Users\\krish\\source\\repos\\weather forecast\\Weather forecast\\BlazorApp\\Models\\Favorite.cs",
-              "RelativeToolTip": "Models\\Favorite.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T05:26:56.696Z"
             },
             {
               "$type": "Document",
